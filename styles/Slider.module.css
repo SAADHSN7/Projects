@@ -1,0 +1,21 @@
+
+.slideshow_header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.image_container{
+    /* display: flex; */
+    align-items: center;
+}
+.image_wrapper{
+    display: flex;
+    justify-content: center;
+    height: full;
+    width: full; 
+}
+.images{
+    height: 600px;
+    width: 55%;
+    border-radius: 6px;
+}

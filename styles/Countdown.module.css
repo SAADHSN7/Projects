@@ -1,0 +1,40 @@
+.timer_wrapper{
+    
+    padding: 30px;
+    border: solid 2px white;
+    border-radius: 5px;display: flex;
+    justify-content: center;
+}
+
+.countdown_header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.timer_inner{
+    background-color: rgb(66, 65, 65);
+    display: flex;
+    border: solid 2px white;
+    padding: 25px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.timer_segment{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.divider, .time{
+    font-size: 35px;
+}
+.divider{
+    margin: 0 60px;
+
+}
+.label{
+    font-size: 15px;
+}
